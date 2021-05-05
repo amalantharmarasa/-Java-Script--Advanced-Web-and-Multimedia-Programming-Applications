@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <title>Project 10</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="header.css">
+    <style>
+
+        /*  Page styles  */
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font: normal 14px/1.4 Arial, Helvetica, sans-serif;
+        }
+
+        .skrollr-desktop body {
+            height:10% !important;
+        }
+
+        #skrollr-body {
+            height:100%;
+            overflow:visible;
+            position:relative;
+        }
+
+
+        /*  Styles for this example */
+
+
+        .dummy-content{
+            padding: 150px 0;
+            background: radial-gradient(red, #EEF6F9);
+            color: white;
+            font-size: 24px;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .dummy-content h2{
+            font-weight: normal;
+        }
+
+        .about-us{
+            padding: 150px 0;
+            background-color: #2EA36B;
+            min-height: 120vh;
+            text-align: center;
+            color: #25113C;
+            font-size: 18px;
+        }
+
+        .about-us h2{
+            font-size: 42px;
+            margin-bottom: 80px;
+            font-weight: normal;
+        }
+
+        .about-us div{
+            text-align: center;
+            width: 25%;
+            margin: 30px 10px;
+            display: inline-block;
+        }
+
+
+        .about-us div img{
+            border-radius: 50%;
+            width: 60%;
+        }
+
+        .about-us a.attribution{
+            display: block;
+            font-size: 13px;
+            text-decoration: none;
+            color: inherit;
+            width: 280px;
+            margin: 50px auto 10px;
+            opacity: 0.5;
+        }
+
+
+        @media (max-width: 800px){
+
+            .about-us div{
+                width: 45%;
+                margin: 20px 0;
+            }
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+<h1 align="center"> Project #10<br>Parallax Programming: Graphical icons added to a web page</h1>
+<div id="skrollr-body">
+
+  <header>
+    
+       
+    </header>
+
+    <ul>
+        <li></li>
+    </ul>
+
+    <div class="dummy-content">
+
+      <h1>AWS Certification Courses<br></h1><h2>Because Amazon Web Services is a constantly evolving cloud ecosystem, staying up with new AWS services and features can be a chore. That’s why earning an AWS certification is such a great IT career move. In the eyes of future employers, you are an AWS authority.!</h2>
+
+  </div>
+
+    <div class="about-us">
+
+        <h2>Features</h2>
+
+        <div data-150-bottom-center="transform: rotate(-900deg); opacity: 0" data-150-center-center="transform: rotate(0); opacity: 1">
+            <img src="11.png" alt="avatar">
+            <h4>Free Digital Training</h4>
+        </div>
+
+        <div data-100-bottom-center="transform: rotate(900deg); opacity: 0" data-100-center-center="transform: rotate(0); opacity: 1">
+            <img src="22.png" alt="avatar">
+            <h4>Classroom Training</h4>
+        </div>
+
+        <div data-50-bottom-center="transform: rotate(-900deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+            <img src="33.png" alt="avatar">
+			<h4>AWS Certification</h4>
+        </div><br>
+
+        
+
+
+    
+    
+     
+<h2></h2>
+        <h2>Certification</h2>
+        
+        <div data-150-bottom-center="transform: rotateY(-360deg); opacity: 0" data-150-center-center="transform: rotate(0); opacity: 1">
+            <img src="1.png" alt="avatar">
+            <h4>Cloud Practitioner</h4>
+        </div>
+
+        <div data-100-bottom-center="transform: rotateY(-360deg); opacity: 0" data-100-center-center="transform: rotate(0); opacity: 1">
+            <img src="2.png" alt="avatar">
+            <h4>Architect</h4>
+        </div>
+
+        <div data-50-bottom-center="transform: rotateY(-360deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+            <img src="3.png" alt="avatar">
+            <h4>Developer</h4>
+        </div><h2></h2>
+        
+        <div data-50-bottom-center="transform: rotateY(360deg); opacity: 0" data-150-center-center="transform: rotate(0); opacity: 1">
+            <img src="4.png" alt="avatar">
+            <h4>Operations</h4>
+        </div>
+        
+        <div data-50-bottom-center="transform: rotateY(360deg); opacity: 0" data-100-center-center="transform: rotate(0); opacity: 1">
+            <img src="5.png" alt="avatar">
+            <h4>Machine Learning</h4> </div> 
+            
+        <div data-50-bottom-center="transform: rotateY(360deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+            <img src="6.png" alt="avatar">
+            <h4>Storage</h4> </div>    
+            
+
+
+</div>
+
+<script src="skrollr.min.js"></script>
+
+<script>
+    skrollr.init();
+</script>
+
+
+<script src="http://cdn.tutorialzine.com/misc/enhance/v3.js" async></script>
+
+</body>
+</html>
