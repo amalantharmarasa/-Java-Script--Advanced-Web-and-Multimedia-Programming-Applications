@@ -1,6 +1,6 @@
 # Java-Script--Advanced-Web-and-Multimedia-Programming-Applications
 ## Parallax Programming
-### click Project name to view the page
+
 
 Project 1 : Screen stationary – Text scrolling up
 
